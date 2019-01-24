@@ -8,7 +8,7 @@ namespace Tarak
 {
     class Tarak
     {
-        Random _rand = new Random();
+        static Random _rand = new Random();
 
         private int speed = 0;
         public int i = 0;
